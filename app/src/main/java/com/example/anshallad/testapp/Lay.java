@@ -14,7 +14,6 @@ public class Lay extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lay);
 
-
         Button btn = (Button) findViewById(R.id.submit);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +23,5 @@ public class Lay extends AppCompatActivity {
         });
 
 
-        
     }
 }
